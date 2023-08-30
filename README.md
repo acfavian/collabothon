@@ -1,28 +1,29 @@
-![](https://gitlab.com/sabatesduran/dem/raw/master/img/collabo-thon_100x100.png)
-# CollaboThon - Joc de colaboració en equips amb Makey Makey
+# CollaboThon - Juego de Colaboración entre equipos y Makey Makey
 
-## Explicació
-(TODO)
+## Explicación
+(TO-DO) Decisión del educador
 
-## Normes
-- 2 equips de fins a 4 persones
-- La partida dura 60 segons
-- Aconsegueix punts completant el circuit des del pal del centre fins al pal que et mostra la pantalla del joc.
-- L'equip que aconsegueixi més punts guanya la partida.
+## Normas y Teclas
+- 2 equipos de hasta 4 personas
+- Resetea o emieza el juego oprimiendo BARA SPACEADORA
+- La partida dura 120 segundos - (o termina el juego oprimiendo la letra F)
+- Consigue puntos oprimiendo la letra que te indica:
+- 💚 Equipo VERDE teclas: ARRIBA -> flecha arriba || MEDIO -> flecha izquierda || ABAJO -> flecha abajo
+- 💙 Equipo AZUL teclas: ARRIBA -> tecla "W" || MEDIO -> tecla "A" || ABAJO -> tecla "S"
+- El equipo con mas puntos gana la partida
 
-## Tecnologies
-- Raspberry Pi
-- Makey Makey
+## Tecnologias
 - HTML, CSS(SASS), JS(jQuery), Gulp.
 
-## Materials
-(TODO)
+## Materiales
+(TO-DO) Decisión del educador
 
-## Com montar-ho?
-(TODO)
+## Como montarlo?
+(TO-DO) Decisión del educador
 
-## Idea de original
-La idea original d'aquest joc és de **The Tech Museum of Innovation**, us deixo aquí d'on he tret tota la informació:
+## Idea original
+La idea original es del **The Tech Museum of Innovation**, ver más info. a continuación:
+- [collabothon-makeymakey (Github)](https://github.com/sabatesduran/collabothon-makeymakey "Github")
 - [MaKey CollaboThon (Vídeo)](https://www.youtube.com/watch?v=5XjZ2MFmYjk "Video")
-- [Repositori del joc original en Java](https://github.com/kguglielmino/TheTech)
-- [Explicacio del joc original (pags.36-40)](http://www.thetech.org/MakerspaceTheTechBetaSamplerCookbook.pdf)
+- [Repositorio original en Java](https://github.com/kguglielmino/TheTech)
+- [Expliccación del juego original (pags.36-40)](http://www.thetech.org/MakerspaceTheTechBetaSamplerCookbook.pdf)
