@@ -1,0 +1,103 @@
+:root {
+  --jugador-1: #00FF00;
+  --jugador-2: #21c0ff;
+}
+
+.header {
+  height: 20%;
+  font-size: 50px;
+  text-align: center; }
+
+.player1 {
+  background-color: var(--jugador-1);
+  padding: 30px;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000; }
+
+.player2 {
+  background-color: var(--jugador-2);
+  padding: 30px;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000; }
+
+.clock {
+  padding: 20px;
+  font-size: 70px;
+  font-weight: bold;
+  border: 5px solid #000; }
+
+.pointer {
+  height: 80%;
+  font-size: 120px;
+  text-align: center; }
+
+.marcador {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 150px; }
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+.pals {
+  height: 100%; }
+
+.pal {
+  margin-bottom: 50px;
+  position: relative; }
+
+.pal-nom {
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
+  margin-top: 11%; }
+
+.rodona1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-color: #fff;
+  border: 5px solid var(--jugador-1); }
+
+.rodona2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-color: #fff;
+  border: 5px solid var(--jugador-2); }
+
+/* Modal */
+#resultat {
+  text-align: center; }
+  #resultat .modal-title {
+    text-align: center;
+    font-size: 70px; }
+  #resultat .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 65%; }
+  #resultat .modal-body {
+    font-size: 200px;
+    text-align: center; }
+  #resultat .modal-footer {
+    text-align: center;
+    font-size: 70px; }
+
+@media screen and (min-width: 768px) {
+  #resultat:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%; } }

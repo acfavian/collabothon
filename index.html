@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DEM</title>
+        <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap/bootstrap.min.css" media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap/bootstrap-theme.min.css" media="screen,projection"/>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row header">
+                <div class="col-sm-5 player1">
+                    <!-- equipo 1 -->
+                    <div class="jugador">Equipo Verde</div>
+                </div>
+                <div id="clock" class="col-sm-2 clock">0</div>
+                <div class="col-sm-5 player2">
+                    <!-- equipo 2 -->
+                    <div class="jugador">Equipo Azul</div>
+                </div>
+            </div>
+            <div class="row pointer">
+                <div class="col-sm-4 marcador">
+                    <div class="vertical-align">
+                        <span id="punts-1" class="points">0</span><p>puntos</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 pals">
+                    <div class="vertical-align">
+                        <div class="row pal davant">
+                            <div class="col-sm-3">
+                                <!-- equipo 1 verde -->
+                                <div data-keycode="38" class="rodona1 rodona-jug1"></div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="pal-nom">Arriba</div>
+                            </div>
+                            <div class="col-sm-3">
+                                <!-- equipo 2 azul -->
+                                <div data-keycode="87" class="rodona2 rodona-jug2 right"></div>
+                            </div>
+                        </div>
+                        <div class="row pal mig">
+                            <div class="col-sm-3">
+                                <!-- equipo 1 verde -->
+                                <div data-keycode="37" class="rodona1 rodona-jug1"></div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="pal-nom">Medio</div>
+                            </div>
+                            <div class="col-sm-3">
+                                <!-- equipo 2 azul -->
+                                <div data-keycode="65" class="rodona2 rodona-jug2 right"></div>
+                            </div>
+                        </div>
+                        <div class="row pal darrera">
+                            <div class="col-sm-3">
+                                <!-- equipo 1 verde -->
+                                <div data-keycode="40" class="rodona1 rodona-jug1"></div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="pal-nom">Abajo</div>
+                            </div>
+                            <div class="col-sm-3">
+                                <!-- equipo 2 azul -->
+                                <div data-keycode="83" class="rodona2 rodona-jug2 right"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 marcador">
+                    <div class="vertical-align">
+                        <span id="punts-2" class="points">0</span><p>puntos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="resultat" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                        <h4 class="modal-title">Resultado</h4>
+                    </div>
+                    <div class="modal-body">
+                            <span id="resultat1">21</span>
+                            -
+                            <span id="resultat2">25</span>
+                    </div>
+                    <div class="modal-footer">
+                        <span id="resultat-footer">Ha ganado el equipo 2!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Javascript -->
+    	<script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/dem.js"></script>
+    </body>
+</html>
