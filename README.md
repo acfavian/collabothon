@@ -5,10 +5,10 @@
 
 ## Normas y Teclas
 - 2 equipos de hasta 4 personas
-- Resetea o emieza el juego oprimiendo BARA SPACEADORA
+- Resetea o empieza el juego oprimiendo BARA SPACEADORA
 - La partida dura 120 segundos - (o termina el juego oprimiendo la letra F)
 - Consigue puntos oprimiendo la letra que te indica:
-- 💚 Equipo VERDE teclas: ARRIBA -> flecha arriba || MEDIO -> flecha izquierda || ABAJO -> flecha abajo
+- 💚 Equipo VERDE teclas: ARRIBA -> "flecha arriba" || MEDIO -> "flecha izquierda" || ABAJO -> "flecha abajo"
 - 💙 Equipo AZUL teclas: ARRIBA -> tecla "W" || MEDIO -> tecla "A" || ABAJO -> tecla "S"
 - El equipo con mas puntos gana la partida
 
